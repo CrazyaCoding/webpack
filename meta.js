@@ -86,7 +86,7 @@ module.exports = {
 				{
 					name:
 						'58fe（https://github.com/RekingZhang/eslint-config-58fe）',
-					value: '58fe',
+					value: 'eslint-config-58fe',
 					short: '58fe'
 				},
 				{
