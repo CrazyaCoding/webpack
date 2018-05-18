@@ -17,6 +17,12 @@ module.exports = {
     'standard'
   ],
   {{/if_eq}}
+  {{#if_eq lintConfig "eslint-config-58fe"}}
+  extends: [
+    // https://github.com/RekingZhang/eslint-config-58fe
+    '58fe'
+  ],
+  {{/if_eq}}
   {{#if_eq lintConfig "airbnb"}}
   // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
   // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.

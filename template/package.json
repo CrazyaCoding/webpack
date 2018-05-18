@@ -29,12 +29,21 @@
     "vue-router": "^3.0.1"{{/router}}
   },
   "devDependencies": {
+    "prettier": "^1.11.1",
     {{#lint}}
     "babel-eslint": "^7.2.3",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
+    {{#if_eq lintConfig "eslint-config-58fe"}}
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-config-58fe": "^1.0.1",
+    {{/if_eq}}
     {{#if_eq lintConfig "standard"}}
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.4.0",
