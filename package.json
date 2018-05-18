@@ -8,6 +8,12 @@
     "docs:deploy": "bash ./deploy-docs.sh"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
     "vue-cli": "^2.8.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
