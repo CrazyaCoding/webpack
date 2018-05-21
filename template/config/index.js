@@ -4,6 +4,10 @@
 
 const path = require('path')
 
+// 这块坐的有点鸡肋 后续找到办法再改进吧
+// 将参数改为自己想要打包的模块名字
+const projectName = 'a';
+
 module.exports = {
   dev: {
 

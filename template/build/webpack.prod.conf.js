@@ -66,8 +66,8 @@ const webpackConfig = merge(baseWebpackConfig, {
       filename: {{#if_or unit e2e}}process.env.NODE_ENV === 'testing'
         ? 'index.html'
         : {{/if_or}}config.build.index,
-      template: 'index.html',
-      inject: true,
+        template: './src/modules/' + config.project + '/index.html',
+        inject: true,
       minify: {
         removeComments: true,
         collapseWhitespace: true,
