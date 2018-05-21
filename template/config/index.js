@@ -9,6 +9,7 @@ const path = require('path')
 const projectName = 'a';
 
 module.exports = {
+  project: projectName,
   dev: {
 
     // Paths
