@@ -27,7 +27,7 @@
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}},
-    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-html": "^4.0.3"
   },
   "devDependencies": {
     "prettier": "^1.11.1",
