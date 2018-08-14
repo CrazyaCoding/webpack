@@ -35,7 +35,7 @@ module.exports = {
   {{/if_eq}}
   // required to lint *.vue files
   plugins: [
-    'vue'
+    'vue','html'
   ],
   {{#if_eq lintConfig "airbnb"}}
   // check if imports actually resolve
